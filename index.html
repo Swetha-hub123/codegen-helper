@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Code Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 AI Code Assistant</h1>
+
+    <textarea id="prompt" placeholder="Enter your prompt..."></textarea>
+
+    <input type="file" id="fileInput" />
+
+    <button onclick="sendRequest()">Generate Code</button>
+
+    <pre><code id="output" class="language-js"></code></pre>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
